@@ -1,9 +1,45 @@
 {
-    "posts":[
-        {"id":1, "title":"json-server", "author":"sourav"}
+    "users": [
+        {
+            "id":1,
+            "user_uuid":"65be8281-32a1-468e-b113-06769a6aaceb",
+            "username":"code with anaa",
+            "handle":"aniakubow",
+            "bio":"I make big tech giants clone",
+            "link":"https://www.linktr.ee/aniakubow",
+            "img": "https://i.imgur.com/QvICKE3.jpg",
+            "instagram_url":"https://www.instagram.com/aniakubow",
+            "followers" : [
+                {
+                    "user_uuid":"6a714e39-fafb-47de-a0f1-6df47e1586d1"
+                },
+                {
+                    "user_uuid":"5e7e533d-cffe-40a6-bd5c-18456f59b3bd"
+                }
+            ]
+        },
+
+        {
+            "id":2,
+            "user_uuid":"65be8281-32a1-468e-b113-06769a6aaceb",
+            "username":"code with anaa",
+            "handle":"aniakubow",
+            "bio":"I make big tech giants clone",
+            "link":"https://www.linktr.ee/aniakubow",
+            "img": "https://i.imgur.com/QvICKE3.jpg",
+            "instagram_url":"https://www.instagram.com/aniakubow",
+            "followers" : [
+                {
+                    "user_uuid":"6a714e39-fafb-47de-a0f1-6df47e1586d1"
+                },
+                {
+                    "user_uuid":"5e7e533d-cffe-40a6-bd5c-18456f59b3bd"
+                }
+            ]
+        }
     ],
-    "comments":[
-        {"id":1, "body":"some-comment", "postId":1}
-    ],
-    "profile":{"name":"sourav"}
+
+    "threads":[
+
+    ]
 }
