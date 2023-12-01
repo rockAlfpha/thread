@@ -1,7 +1,7 @@
 {
     "users": [
         {
-            "id":1,
+            "id":0,
             "user_uuid":"65be8281-32a1-468e-b113-06769a6aaceb",
             "username":"code with anaa",
             "handle":"aniakubow",
@@ -20,18 +20,31 @@
         },
 
         {
-            "id":2,
-            "user_uuid":"65be8281-32a1-468e-b113-06769a6aaceb",
-            "username":"code with anaa",
-            "handle":"aniakubow",
-            "bio":"I make big tech giants clone",
-            "link":"https://www.linktr.ee/aniakubow",
-            "img": "https://i.imgur.com/QvICKE3.jpg",
-            "instagram_url":"https://www.instagram.com/aniakubow",
+            "id":1,
+            "user_uuid":"6d7a42af-dd75-4c2a-8038-be90270bdd3f",
+            "username":"Alison_Burrgers",
+            "handle":"alisonBurgerrs",
+            "bio":"If burger is your things, then im the destination of yours",
+            "link":"https://www.bobbyburrgers.com",
+            "img": "https://i.imgur.com/rWYtZa6.png",
+            "instagram_url":"https://www.instagram.com/bobbybirger",
             "followers" : [
                 {
-                    "user_uuid":"6a714e39-fafb-47de-a0f1-6df47e1586d1"
-                },
+                    "user_uuid":"7f0c7a1f-5ac1-44d6-a11b-c0b2af71e3f2"
+                }
+            ]
+        },
+
+        {
+            "id":2,
+            "user_uuid":"584eb863-0abd-4d78-812b-5982d440bea9",
+            "username":"angela",
+            "handle":"angelsDecartos",
+            "bio":"I am digital content creaotr",
+            "link":"https://www.angela.com",
+            "img": "https://i.imgur.com/rWYtZa6.png",
+            "instagram_url":"https://www.instagram.com/ageladescartos",
+            "followers" : [
                 {
                     "user_uuid":"5e7e533d-cffe-40a6-bd5c-18456f59b3bd"
                 }
@@ -40,6 +53,59 @@
     ],
 
     "threads":[
+        {
+            "id":0,
+            "timestamp":"2018-12-10T13:49:51.141Z",
+            "thread_from":"65be8281-32a1-468e-b113-06769a6aaceb",
+            "thread_to":null,
+            "reply_to":null,
+            "text":"Hello world (of thread)",
+            "likes": [
+                {
+                    "uuid":"5e7e533d-cffe-40a6-bd5c-18456f59b3bd"
+                },{
+                    "uuid":"7f0c7a1f-5ac1-44d6-a11b-c0b2af71e3f2"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "timestamp":"2018-12-10T14:54:51.141Z",
+            "thread_from":"65be8281-32a1-468e-b113-06769a6aaceb",
+            "thread_to":null,
+            "reply_to":null,
+            "text":"Awsome thread",
+            "likes": []
+        },
+        {
+            "id":2,
+            "timestamp":"2018-12-10T19:54:51.141Z",
+            "thread_from":"65be8281-32a1-468e-b113-06769a6aaceb",
+            "thread_to":null,
+            "reply_to":null,
+            "text":"Awsome one!",
+            "likes": []
+        },
+        {
+            "id":3,
+            "timestamp":"2018-12-10T20:54:51.141Z",
+            "thread_from":"6d7a42af-dd75-4c2a-8038-be90270bdd3f",
+            "thread_to":null,
+            "reply_to":null,
+            "text":"Excited to have launched Bobby's Burger",
+            "likes": []
+        },
+        {
+            "id":4,
+            "timestamp":"2018-12-10T20:54:51.141Z",
+            "thread_from":"65be8281-32a1-468e-b113-06769a6aaceb",
+            "thread_to":"6d7a42af-dd75-4c2a-8038-be90270bdd3f",
+            "reply_to":3,
+            "text":"Congrats!!",
+            "likes": []
+        }
+
+
 
     ]
 }
